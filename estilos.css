@@ -1,0 +1,262 @@
+/*FUENTES*/
+header	h1 {font-family: 'Lobster', cursive;
+font-size:38px;
+font-weight: 800;
+line-height: normal;
+margin: 12px 0px 0px 20px;
+padding-left: 15px;
+letter-spacing: 3px;}
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans', serif;}
+nav{font-family: 'Open Sans', serif;}
+*{font-family: 'Open Sans', sans-serif;}
+
+header{
+display:grid;
+grid-template-columns: 1fr 1fr;
+justify-content: flex-start;
+align-items:stretch;
+flex-direction:row;
+color:white;
+background-size: cover;
+min-height: 450px;
+}
+
+header .fixed-top{
+  background-color: rgba(33, 209, 146, 0.7);
+  backdrop-filter: blur(25px);
+}
+
+nav{
+	background-color: #21d192;
+}
+
+ nav ul li{
+
+  letter-spacing: 1px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color:white;
+
+}
+
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+	color:white;
+	 font-size:35px;
+
+}
+
+
+
+.titulo1{
+ 	display:flex;
+ 	justify-content: center;
+ 	position:absolute;
+ 	align-items:center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size:45px;
+ 	letter-spacing: -2px;
+ 	font-weight: 800;
+ 	pointer-events: none;
+ 	animation-duration: 2s;
+ animation-name: zoom;
+ }
+
+ @keyframes zoom {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+.banner1{
+	background-image:url(concierto2.jpg);
+
+}
+
+.banner2{
+	background-image:url(concierto.jpg);
+
+}
+
+.banner3{
+	background-image:url(banner3.jpg);
+	color: black;
+
+}
+.banner4{
+	background-image:url(banner4.jpg);
+
+}
+
+.banner5{
+	background-image:url(banner5.jpg);
+	color: white;
+
+}
+
+
+article {
+	text-align: center;
+	padding:45px;
+}
+
+
+
+
+section {
+	text-align: center;
+	max-width: 800px;
+	margin:auto;
+
+
+}
+
+section h1{
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:15px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+.Host{
+	margin-top:15px;
+	max-width: 700px;
+	margin: auto;
+	padding-bottom:15px;
+
+}
+
+.host2{
+	margin-bottom:15px;
+	margin-top:15px;
+	list-style-type: square;
+
+
+}
+
+.host2 p{
+	padding-bottom:10px;
+}
+
+
+form div{
+    margin: 10px 0px;
+
+}
+
+form {
+  padding:2em;
+  font-size:12px;
+
+
+}
+
+form div label {
+  display:block;
+
+}
+
+.puntito {
+  display:inline-block;
+}
+
+form h1{
+	margin-bottom:2px;
+	font-size:15px;
+	font-weight: : bold;
+
+}
+ 
+.formuario{
+	width: 400px;
+	margin:auto;
+
+}
+
+.dos-columnas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:15px;
+
+}
+
+.dos-columnas div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 16px 10px;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: : 10px;
+  max-width: 700px;
+  margin: auto;
+  flex-direction:row;
+}
+
+.dos-columnas p{
+	text-align:center;
+}
+
+.dos-columnas h1{
+	margin-left:7px;
+	font-size:30px;
+	margin-left: 2px;
+}
+
+
+.maf{
+	max-width: 700px;
+	 margin: auto;
+}
+
+
+
+
+#index div{
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+ 
+
+}
+
+#index p{
+  margin-right: :20px;
+}
+
+
+.form-control{
+	padding:0;
+
+}
+
+.imagen2{
+	width:512px;
+	height:341px;
+}
+
+.comunidad{
+	padding:30px;
+}

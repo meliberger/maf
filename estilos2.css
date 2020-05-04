@@ -1,0 +1,17 @@
+header{
+display:grid;
+grid-template-columns: 1fr 1fr;
+justify-content: flex-start;
+align-items:stretch;
+flex-direction:row;
+background-image:url(concierto.jpg);
+color:white;
+background-size: cover;
+min-height: 450px;
+}
+
+
+ 	
+ 
+
+
